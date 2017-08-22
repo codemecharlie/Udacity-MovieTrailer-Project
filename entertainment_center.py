@@ -1,36 +1,34 @@
 import fresh_tomatoes
 import media
 
+dark_knight = media.Movie("The Dark Knight",
+                      "The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+                      "https://static.comicvine.com/uploads/original/0/4115/885630-1new_joker_poster_for_the_dark_knight.jpg",
+                      "https://www.youtube.com/watch?v=EXeTwQWrcwY")
 
-toy_story = media.Movie("Toy Story",
-                      "A story of a boy and his toys that come to life",
-                      "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
-                      "https://www.youtube.com/watch?v=vwyZH85NQC4")
-#print(toy_story.storyline)
+devil_wears_prada = media.Movie("Devil Wears Prada",
+                    "A smart but sensible new graduate lands a job as an assistant to Miranda Priestly, the demanding editor-in-chief of a high fashion magazine.",
+                    "https://pmcdeadline2.files.wordpress.com/2017/01/the_devil_wears_prada_poster.jpg",
+                    "https://www.youtube.com/watch?v=LG0xYJJbko8")
 
-avatar = media.Movie("Avatar",
-                    "A marine on an alien planet",
-                    "http://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Poster.jpg",
-                    "https://www.youtube.com/watch?v=cRdxXPV9GNQ")
-#print(avatar.storyline)
-#avatar.show_trailer()
+little_women = media.Movie("Little Women", "Louisa May Alcott's classic, the March sisters confront growing pains, financial shortages, family tragedies and romantic rivalries in mid-19th-century Massachusetts. ",
+                           "http://t0.gstatic.com/images?q=tbn:ANd9GcSfdH24TUIxSoWPKDJaXOrYqV17U1Skb32OnPHRBn-8KdVoNdTv",
+                           "https://www.youtube.com/watch?v=uKqi9edJVQY")
 
-school_of_rock = media.Movie("School of Rock", "Using rock music to learn.",
-                           "http://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
-                           "https://www.youtube.com/watch?v=3PsUJFEBC74")
+black_panther = media.Movie("Black Panther",
+                          "Black Panther springs into action when an old enemy threatens the fate of his nation and the world.",
+                          "http://t1.gstatic.com/images?q=tbn:ANd9GcS9XmH8C4x242GdYwyZtIOFOUqaZ5XMPSxY5zc2nVR_pbteQcSq",  
+                          "https://www.youtube.com/watch?v=yLNLPECROMA")
 
-ratatouille = media.Movie("Ratatouille", "A rat is a chef in Paris.",
-                       "http://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
-                       "https://www.youtube.com/watch?v=c3sBBRxDAqk")
+remember_the_titans = media.Movie("Remember the Titans", 
+                                  "Two football coaches overcome their differences to turn a group of hostile young men into gridiron champions.",
+                                  "http://www.gstatic.com/tv/thumb/movieposters/25848/p25848_p_v8_as.jpg",
+                                  "https://www.youtube.com/watch?v=Jk6RhCr1a_A")
 
-midnight_in_paris = media.Movie("Midnight in Paris", "Going back in time to meet authors.",
-                             "http://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
-                             "https://www.youtube.com/watch?v=atLg2wQQxvU")
+ten_things = media.Movie("10 Things I Hate About You", "90s interpretation of Shakespeare's 'The Taming of the Shrew'",
+                          "http://www.gstatic.com/tv/thumb/movieposters/22802/p22802_p_v8_af.jpg",
+                          "https://www.youtube.com/watch?v=uE7qjQlfoRs")
 
-hunger_games = media.Movie("Hunger Games", "A really real reality show.",
-                          "http://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
-                          "https://www.youtube.com/watch?v=PbA63a7H0bo")
-
-movies = [toy_story, avatar, school_of_rock, ratatouille, midnight_in_paris, hunger_games]
+movies = [dark_knight, devil_wears_prada, little_women, black_panther, remember_the_titans, ten_things]
 fresh_tomatoes.open_movies_page(movies)
 
