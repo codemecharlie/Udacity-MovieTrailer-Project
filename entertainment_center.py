@@ -14,14 +14,15 @@ devil_wears_prada = media.Movie("Devil Wears Prada",
                                 "https://www.youtube.com/watch?v=LG0xYJJbko8")
 
 little_women = media.Movie("Little Women", 
-                           "Louisa May Alcott's classic, the March sisters confront growing pains,"
-                           "financial shortages, family tragedies and romantic rivalries in mid-19th-century Massachusetts.",
+                           "Louisa May Alcott's classic, the March sisters confront growing "
+                           "pains, financial shortages, family tragedies and romantic rivalries"
+                           "in mid-19th-century Massachusetts.",
                            "http://t0.gstatic.com/images?q=tbn:ANd9GcSfdH24TUIxSoWPKDJaXOrYqV17U1Skb32OnPHRBn-8KdVoNdTv",
                            "https://www.youtube.com/watch?v=uKqi9edJVQY")
 
 black_panther = media.Movie("Black Panther",
-                            "Black Panther springs into action when an old enemy threatens the fate "
-                            "of his nation and the world.",
+                            "Black Panther springs into action when an old enemy threatens the "
+                            "fate of his nation and the world.",
                             "http://t1.gstatic.com/images?q=tbn:ANd9GcS9XmH8C4x242GdYwyZtIOFOUqaZ5XMPSxY5zc2nVR_pbteQcSq",  
                             "https://www.youtube.com/watch?v=yLNLPECROMA")
 
@@ -36,6 +37,7 @@ ten_things = media.Movie("10 Things I Hate About You",
                          "http://www.gstatic.com/tv/thumb/movieposters/22802/p22802_p_v8_af.jpg",
                          "https://www.youtube.com/watch?v=uE7qjQlfoRs")
 
-movies = [dark_knight, devil_wears_prada, little_women, black_panther, remember_the_titans, ten_things]
+movies = [dark_knight, devil_wears_prada, little_women, black_panther,
+          remember_the_titans, ten_things]
 fresh_tomatoes.open_movies_page(movies)
 
