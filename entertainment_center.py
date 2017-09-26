@@ -13,7 +13,7 @@ devil_wears_prada = media.Movie("Devil Wears Prada",
                                 "https://pmcdeadline2.files.wordpress.com/2017/01/the_devil_wears_prada_poster.jpg",
                                 "https://www.youtube.com/watch?v=LG0xYJJbko8")
 
-little_women = media.Movie("Little Women", 
+little_women = media.Movie("Little Women",
                            "Louisa May Alcott's classic, the March sisters confront growing "
                            "pains, financial shortages, family tragedies and romantic rivalries"
                            "in mid-19th-century Massachusetts.",
@@ -23,16 +23,16 @@ little_women = media.Movie("Little Women",
 black_panther = media.Movie("Black Panther",
                             "Black Panther springs into action when an old enemy threatens the "
                             "fate of his nation and the world.",
-                            "http://t1.gstatic.com/images?q=tbn:ANd9GcS9XmH8C4x242GdYwyZtIOFOUqaZ5XMPSxY5zc2nVR_pbteQcSq",  
+                            "http://t1.gstatic.com/images?q=tbn:ANd9GcS9XmH8C4x242GdYwyZtIOFOUqaZ5XMPSxY5zc2nVR_pbteQcSq",
                             "https://www.youtube.com/watch?v=yLNLPECROMA")
 
-remember_the_titans = media.Movie("Remember the Titans", 
+remember_the_titans = media.Movie("Remember the Titans",
                                   "Two football coaches overcome their differences to turn a group of "
                                   "hostile young men into gridiron champions.",
                                   "http://www.gstatic.com/tv/thumb/movieposters/25848/p25848_p_v8_as.jpg",
                                   "https://www.youtube.com/watch?v=Jk6RhCr1a_A")
 
-ten_things = media.Movie("10 Things I Hate About You", 
+ten_things = media.Movie("10 Things I Hate About You",
                          "90s interpretation of Shakespeare's 'The Taming of the Shrew'",
                          "http://www.gstatic.com/tv/thumb/movieposters/22802/p22802_p_v8_af.jpg",
                          "https://www.youtube.com/watch?v=uE7qjQlfoRs")
@@ -40,4 +40,3 @@ ten_things = media.Movie("10 Things I Hate About You",
 movies = [dark_knight, devil_wears_prada, little_women, black_panther,
           remember_the_titans, ten_things]
 fresh_tomatoes.open_movies_page(movies)
-
