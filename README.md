@@ -17,7 +17,8 @@ This is a python generated website featuring some of my **FAVE** movies past, pr
     <li>Fork this <a href="https://github.com/udacity/ud036_StarterCode"> Repository</a> and download starter files. </li>
     <li> Open starter file:
             <ul>
-              <li> `fresh_tomatoes.py` </li>.
+              <li> `fresh_tomatoes.py` </li>
+            </ul>
     <li> Open new file in Python & create data structure to store **FAVE** movie info (i.e. movie title, box art URL and Youtube video). Save file as `entertainment_center.py`</li>
     <li> Create multiple instances of that Python Class within `entertainment_center.py` file.</li>
     <li> Be sure to correctly import correctly within each file to ensure that your website renders correctly.</li>
