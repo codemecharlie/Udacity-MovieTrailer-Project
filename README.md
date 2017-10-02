@@ -14,7 +14,7 @@
 <ol>
     <li>Install <a href="www.python.com">Python</a> (if not already on your computer).</li>
     <li>Open **IDLE**, available within Python folder</li>
-    <li>Download this repository<a href="https://github.com/codemecharlie/Udacity-MovieTrailer-Project/archive/master.zip"> # H0QA Repository</a> and all files. </li>
+    <li>Download this repository<a href="https://github.com/codemecharlie/Udacity-MovieTrailer-Project/archive/master.zip"> Repository</a> and all files. </li>
     <li> Delete the `fresh_tomatoes.html` file.</li>
     <li> Run the `fresh_tomatoes.py` in IDLE, this will generate a new HTML file
     (ie `fresh_tomatoes.html`) that will open in your web browser.</li>
